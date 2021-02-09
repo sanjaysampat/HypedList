@@ -13,7 +13,7 @@ struct HypedListApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HypedListTabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

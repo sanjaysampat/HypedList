@@ -23,10 +23,14 @@
 		72F342D125D2678200511D8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72F342CF25D2678200511D8B /* README.md */; };
 		72F342D225D2678200511D8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72F342CF25D2678200511D8B /* README.md */; };
 		72F342D325D2678200511D8B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72F342CF25D2678200511D8B /* README.md */; };
-		72F342DA25D2695E00511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F342D925D2695E00511D8B /* img-0.jpg */; };
-		72F342DB25D2695E00511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F342D925D2695E00511D8B /* img-0.jpg */; };
-		72F342DC25D2695E00511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F342D925D2695E00511D8B /* img-0.jpg */; };
-		72F342DD25D2695E00511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F342D925D2695E00511D8B /* img-0.jpg */; };
+		72F342EF25D26F5E00511D8B /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F342EE25D26F5E00511D8B /* HypedListTabView.swift */; };
+		72F342F025D26F5E00511D8B /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F342EE25D26F5E00511D8B /* HypedListTabView.swift */; };
+		72F342F125D26F5E00511D8B /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F342EE25D26F5E00511D8B /* HypedListTabView.swift */; };
+		72F342F225D26F5E00511D8B /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F342EE25D26F5E00511D8B /* HypedListTabView.swift */; };
+		72F3430925D2738000511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F3430825D2737F00511D8B /* img-0.jpg */; };
+		72F3430A25D2738000511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F3430825D2737F00511D8B /* img-0.jpg */; };
+		72F3430B25D2738000511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F3430825D2737F00511D8B /* img-0.jpg */; };
+		72F3430C25D2738000511D8B /* img-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F3430825D2737F00511D8B /* img-0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +68,8 @@
 		72F342B025D2666F00511D8B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		72F342B225D2666F00511D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72F342CF25D2678200511D8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		72F342D925D2695E00511D8B /* img-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-0.jpg"; sourceTree = "<group>"; };
+		72F342EE25D26F5E00511D8B /* HypedListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListTabView.swift; sourceTree = "<group>"; };
+		72F3430825D2737F00511D8B /* img-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "img-0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 				72F3428B25D2666000511D8B /* Persistence.swift */,
 				72F3428C25D2666F00511D8B /* Assets.xcassets */,
 				72F3428725D2666000511D8B /* HypedList.xcdatamodeld */,
+				72F342EE25D26F5E00511D8B /* HypedListTabView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -174,7 +180,7 @@
 		72F342D825D268B700511D8B /* readmeResource */ = {
 			isa = PBXGroup;
 			children = (
-				72F342D925D2695E00511D8B /* img-0.jpg */,
+				72F3430825D2737F00511D8B /* img-0.jpg */,
 			);
 			path = readmeResource;
 			sourceTree = "<group>";
@@ -305,7 +311,7 @@
 			files = (
 				72F342D025D2678200511D8B /* README.md in Resources */,
 				72F342BB25D2666F00511D8B /* Assets.xcassets in Resources */,
-				72F342DA25D2695E00511D8B /* img-0.jpg in Resources */,
+				72F3430925D2738000511D8B /* img-0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +321,7 @@
 			files = (
 				72F342D125D2678200511D8B /* README.md in Resources */,
 				72F342BC25D2666F00511D8B /* Assets.xcassets in Resources */,
-				72F342DB25D2695E00511D8B /* img-0.jpg in Resources */,
+				72F3430A25D2738000511D8B /* img-0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F342DC25D2695E00511D8B /* img-0.jpg in Resources */,
+				72F3430B25D2738000511D8B /* img-0.jpg in Resources */,
 				72F342D225D2678200511D8B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,7 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F342DD25D2695E00511D8B /* img-0.jpg in Resources */,
+				72F3430C25D2738000511D8B /* img-0.jpg in Resources */,
 				72F342D325D2678200511D8B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +352,7 @@
 			files = (
 				72F342B525D2666F00511D8B /* HypedListApp.swift in Sources */,
 				72F342B925D2666F00511D8B /* Persistence.swift in Sources */,
+				72F342EF25D26F5E00511D8B /* HypedListTabView.swift in Sources */,
 				72F342B325D2666F00511D8B /* HypedList.xcdatamodeld in Sources */,
 				72F342B725D2666F00511D8B /* ContentView.swift in Sources */,
 			);
@@ -357,6 +364,7 @@
 			files = (
 				72F342B625D2666F00511D8B /* HypedListApp.swift in Sources */,
 				72F342BA25D2666F00511D8B /* Persistence.swift in Sources */,
+				72F342F025D26F5E00511D8B /* HypedListTabView.swift in Sources */,
 				72F342B425D2666F00511D8B /* HypedList.xcdatamodeld in Sources */,
 				72F342B825D2666F00511D8B /* ContentView.swift in Sources */,
 			);
@@ -367,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72F342A625D2666F00511D8B /* Tests_iOS.swift in Sources */,
+				72F342F125D26F5E00511D8B /* HypedListTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72F342B125D2666F00511D8B /* Tests_macOS.swift in Sources */,
+				72F342F225D26F5E00511D8B /* HypedListTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
