@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7219FFF225D3B8C100105E49 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */; };
+		7219FFF325D3B8C100105E49 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */; };
+		7219FFF425D3B8C100105E49 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */; };
+		7219FFF525D3B8C100105E49 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */; };
+		7219FFFC25D3C48100105E49 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 7219FFFB25D3C48100105E49 /* SwiftDate */; };
 		72F342A625D2666F00511D8B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F342A525D2666F00511D8B /* Tests_iOS.swift */; };
 		72F342B125D2666F00511D8B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F342B025D2666F00511D8B /* Tests_macOS.swift */; };
 		72F342B325D2666F00511D8B /* HypedList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72F3428725D2666000511D8B /* HypedList.xcdatamodeld */; };
@@ -71,6 +76,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventTileView.swift; sourceTree = "<group>"; };
 		72F3428825D2666000511D8B /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		72F3428925D2666000511D8B /* HypedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListApp.swift; sourceTree = "<group>"; };
 		72F3428A25D2666000511D8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7219FFFC25D3C48100105E49 /* SwiftDate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +164,7 @@
 				72F3432725D29CD000511D8B /* HypedEvent.swift */,
 				72F3433025D2AA6100511D8B /* FormLabelView.swift */,
 				72F3433925D2B18900511D8B /* ImagePicker.swift */,
+				7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -231,6 +239,9 @@
 			dependencies = (
 			);
 			name = "HypedList (iOS)";
+			packageProductDependencies = (
+				7219FFFB25D3C48100105E49 /* SwiftDate */,
+			);
 			productName = "HypedList (iOS)";
 			productReference = 72F3429125D2666F00511D8B /* HypedList.app */;
 			productType = "com.apple.product-type.application";
@@ -322,6 +333,9 @@
 				Base,
 			);
 			mainGroup = 72F3428125D2666000511D8B;
+			packageReferences = (
+				7219FFFA25D3C48100105E49 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
 			productRefGroup = 72F3429225D2666F00511D8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -380,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7219FFF225D3B8C100105E49 /* HypedEventTileView.swift in Sources */,
 				72F342B525D2666F00511D8B /* HypedListApp.swift in Sources */,
 				72F3433125D2AA6100511D8B /* FormLabelView.swift in Sources */,
 				72F342B925D2666F00511D8B /* Persistence.swift in Sources */,
@@ -397,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7219FFF325D3B8C100105E49 /* HypedEventTileView.swift in Sources */,
 				72F342B625D2666F00511D8B /* HypedListApp.swift in Sources */,
 				72F3433225D2AA6100511D8B /* FormLabelView.swift in Sources */,
 				72F342BA25D2666F00511D8B /* Persistence.swift in Sources */,
@@ -414,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7219FFF425D3B8C100105E49 /* HypedEventTileView.swift in Sources */,
 				72F3432125D29BEE00511D8B /* CreateHypedEventView.swift in Sources */,
 				72F3433325D2AA6100511D8B /* FormLabelView.swift in Sources */,
 				72F3432A25D29CD000511D8B /* HypedEvent.swift in Sources */,
@@ -428,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7219FFF525D3B8C100105E49 /* HypedEventTileView.swift in Sources */,
 				72F3432225D29BEE00511D8B /* CreateHypedEventView.swift in Sources */,
 				72F3433425D2AA6100511D8B /* FormLabelView.swift in Sources */,
 				72F3432B25D29CD000511D8B /* HypedEvent.swift in Sources */,
@@ -796,6 +814,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7219FFFA25D3C48100105E49 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7219FFFB25D3C48100105E49 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7219FFFA25D3C48100105E49 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		72F3428725D2666000511D8B /* HypedList.xcdatamodeld */ = {

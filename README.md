@@ -4,3 +4,5 @@
 
 ### Tutorial by Nick Walter at udemy.com
 
+1. Use of Swift Package 'SwiftDate'. To search for Swift Packages you may use https://swiftpackageindex.com
+
