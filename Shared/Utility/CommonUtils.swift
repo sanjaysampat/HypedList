@@ -19,12 +19,16 @@ struct CommonUtils {
                 let start = theHexString.index(theHexString.startIndex, offsetBy: 1)
                 hexColorString = String(theHexString[start...])
             }
+            var hexNumber:UInt64 = 0
+            var r,g,b,a: CGFloat
+            if hexColorString.count == 6 {
+                // If string does not have Alpha component then add "FF" opaque for it.
+                hexColorString.append("FF")
+            }
             if hexColorString.count == 8 {
                 let scanner = Scanner(string: hexColorString)
-                var hexNumber:UInt64 = 0
                 
                 if scanner.scanHexInt64(&hexNumber) {
-                    var r,g,b,a: CGFloat
                     r = CGFloat((hexNumber & 0xff000000) >> 24) / 255
                     g = CGFloat((hexNumber & 0x00ff0000) >> 16) / 255
                     b = CGFloat((hexNumber & 0x0000ff00) >> 8) / 255

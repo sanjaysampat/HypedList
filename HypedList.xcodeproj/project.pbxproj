@@ -24,6 +24,10 @@
 		723E37F225DBF4FE00EA3079 /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F025DBF4FE00EA3079 /* PastView.swift */; };
 		723E37F325DBF4FE00EA3079 /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F025DBF4FE00EA3079 /* PastView.swift */; };
 		723E37F425DBF4FE00EA3079 /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F025DBF4FE00EA3079 /* PastView.swift */; };
+		723E37FA25DC0C8D00EA3079 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F925DC0C8D00EA3079 /* DiscoverView.swift */; };
+		723E37FB25DC0C8D00EA3079 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F925DC0C8D00EA3079 /* DiscoverView.swift */; };
+		723E37FC25DC0C8D00EA3079 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F925DC0C8D00EA3079 /* DiscoverView.swift */; };
+		723E37FD25DC0C8D00EA3079 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E37F925DC0C8D00EA3079 /* DiscoverView.swift */; };
 		725D0DDA25DB9A1200900029 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725D0DD925DB9A1200900029 /* DataController.swift */; };
 		725D0DDB25DB9A1200900029 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725D0DD925DB9A1200900029 /* DataController.swift */; };
 		725D0DDC25DB9A1200900029 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725D0DD925DB9A1200900029 /* DataController.swift */; };
@@ -96,6 +100,7 @@
 		723E37DE25DBAEAB00EA3079 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		723E37E725DBF25F00EA3079 /* HypedEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventListView.swift; sourceTree = "<group>"; };
 		723E37F025DBF4FE00EA3079 /* PastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastView.swift; sourceTree = "<group>"; };
+		723E37F925DC0C8D00EA3079 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		725D0DD925DB9A1200900029 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		72F3428825D2666000511D8B /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		72F3428925D2666000511D8B /* HypedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListApp.swift; sourceTree = "<group>"; };
@@ -176,13 +181,14 @@
 		725D0DE325DBA38900900029 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				72F3431525D2747F00511D8B /* UpcomingView.swift */,
 				72F3431E25D29BEE00511D8B /* CreateHypedEventView.swift */,
 				7219FFF125D3B8C100105E49 /* HypedEventTileView.swift */,
 				72F3433925D2B18900511D8B /* ImagePicker.swift */,
 				72F3433025D2AA6100511D8B /* FormLabelView.swift */,
 				723E37E725DBF25F00EA3079 /* HypedEventListView.swift */,
+				72F3431525D2747F00511D8B /* UpcomingView.swift */,
 				723E37F025DBF4FE00EA3079 /* PastView.swift */,
+				723E37F925DC0C8D00EA3079 /* DiscoverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -449,6 +455,7 @@
 				72F342B525D2666F00511D8B /* HypedListApp.swift in Sources */,
 				72F3433125D2AA6100511D8B /* FormLabelView.swift in Sources */,
 				72F342B925D2666F00511D8B /* Persistence.swift in Sources */,
+				723E37FA25DC0C8D00EA3079 /* DiscoverView.swift in Sources */,
 				72F3431625D2747F00511D8B /* UpcomingView.swift in Sources */,
 				72F3431F25D29BEE00511D8B /* CreateHypedEventView.swift in Sources */,
 				72F342EF25D26F5E00511D8B /* HypedListTabView.swift in Sources */,
@@ -471,6 +478,7 @@
 				72F342B625D2666F00511D8B /* HypedListApp.swift in Sources */,
 				72F3433225D2AA6100511D8B /* FormLabelView.swift in Sources */,
 				72F342BA25D2666F00511D8B /* Persistence.swift in Sources */,
+				723E37FB25DC0C8D00EA3079 /* DiscoverView.swift in Sources */,
 				72F3431725D2747F00511D8B /* UpcomingView.swift in Sources */,
 				72F3432025D29BEE00511D8B /* CreateHypedEventView.swift in Sources */,
 				72F342F025D26F5E00511D8B /* HypedListTabView.swift in Sources */,
@@ -486,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723E37FC25DC0C8D00EA3079 /* DiscoverView.swift in Sources */,
 				7219FFF425D3B8C100105E49 /* HypedEventTileView.swift in Sources */,
 				72F3432125D29BEE00511D8B /* CreateHypedEventView.swift in Sources */,
 				72F3433325D2AA6100511D8B /* FormLabelView.swift in Sources */,
@@ -505,6 +514,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723E37FD25DC0C8D00EA3079 /* DiscoverView.swift in Sources */,
 				7219FFF525D3B8C100105E49 /* HypedEventTileView.swift in Sources */,
 				72F3432225D29BEE00511D8B /* CreateHypedEventView.swift in Sources */,
 				72F3433425D2AA6100511D8B /* FormLabelView.swift in Sources */,

@@ -17,6 +17,7 @@ struct HypedListApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .onAppear {
                     DataController.shared.loadData()
+                    DataController.shared.getDiscoverEvents()
                 }
         }
     }

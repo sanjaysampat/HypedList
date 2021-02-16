@@ -6,3 +6,4 @@
 
 1. Use of Swift Package 'SwiftDate'. To search for Swift Packages you may use https://swiftpackageindex.com
 
+2. jsonbin.io to store sample json file for the access.

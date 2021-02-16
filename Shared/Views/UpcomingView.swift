@@ -14,7 +14,7 @@ struct UpcomingView: View {
     //var hypedEvents: [HypedEvent] = [testHypedEvent2, testHypedEvent1] // []
     
     var body: some View {
-        HypedEventListView(hypedEvents: data.hypedEvents, noEventsText: "Nothing to look forward to 😞\nCreate an event or check out the Discover tab!")
+        HypedEventListView(hypedEvents: data.upcomingHypedEvents, noEventsText: "Nothing to look forward to 😞\nCreate an event or check out the Discover tab!")
         .navigationTitle("Upcoming")
         .navigationBarItems(trailing:
                                 Button(action: {
