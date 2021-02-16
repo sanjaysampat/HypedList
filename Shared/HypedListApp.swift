@@ -15,6 +15,9 @@ struct HypedListApp: App {
         WindowGroup {
             HypedListTabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .onAppear {
+                    DataController.shared.loadData()
+                }
         }
     }
 }
